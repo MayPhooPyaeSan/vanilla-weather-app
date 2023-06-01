@@ -10,16 +10,23 @@
 </head>
 <body>
     <div class="container">
+        <div class="weather-app-wrapper">
         <div class="weather-app">
+            <div class="overview">
         <h1>New York</h1>
         <ul>
             <li>Thursday 9:15</li>
             <li>Clear</li>
         </ul>
+    </div>
         <div class="row">
             <div class="col-6">
-                <img src="https://i.pinimg.com/564x/5d/92/37/5d9237e420b69e478fa390cf545d1c22.jpg" alt="Clear" class="weather-img">
-                72°C | °F
+            <div class="d-flex weather-temperature">
+                <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="Clear" class="weather-img" id="icon" />
+                <div>
+                    <strong>12</strong><span class="units">°C | <a href="#">°F</a></span>
+                </div>
+              </div>
             </div>
             <div class="col-6">
                 <ul>
@@ -29,10 +36,11 @@
                 </ul>
             </div>
         </div>
-        <small>
-            <a href="https://github.com/MayPhooPyaeSan/vanilla-weather-app" target="_blank">Open-source-code</a> by May Phoo Pyae San/Summer
-        </small>
     </div>
+    <small>
+        <a href="https://github.com/MayPhooPyaeSan/vanilla-weather-app" target="_blank" class="link">Open-source-code</a> by May Phoo Pyae San/Summer
+    </small>
+</div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <script src="src/app.js"></script>
