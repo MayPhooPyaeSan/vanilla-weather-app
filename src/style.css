@@ -7,6 +7,9 @@ body {
   margin: 30px auto;
   box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
     rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  background: #212a3e;
+  border: none;
+  border-radius: 10px;
 }
 
 .weather-app {
@@ -19,6 +22,7 @@ h2 {
   text-align: center;
   margin-bottom: 20px;
   font-size: 24px;
+  color: #fff;
 }
 
 h1 {
@@ -52,22 +56,28 @@ h1 {
   top: -34px;
 }
 
+#temperature {
+  color: #fff;
+}
+
 #searchBtn {
-  background-color: #643843;
+  background-color: #fff;
   border: none;
+  color: #212a3e;
 }
 
 #searchBtn:hover {
-  background-color: #c88ea7;
+  background-color: #9ba4b5;
   color: #080202;
 }
 
 .units {
   cursor: pointer;
+  color: #fff;
 }
 
 .weather-temperature .active {
-  color: rgb(33, 33, 33);
+  color: #fff;
   text-decoration: none;
 }
 
@@ -103,10 +113,14 @@ li::first-letter {
   cursor: default;
 }
 
+small {
+  color: #fff;
+}
+
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
-  color: #000;
+  color: #fff;
 }
 
 .weather-forecast-date {
