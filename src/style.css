@@ -66,14 +66,6 @@ h1 {
   cursor: pointer;
 }
 
-#celsius-link {
-  text-decoration: none;
-}
-
-#fahrenheit-link {
-  text-decoration: none;
-}
-
 .weather-temperature .active {
   color: rgb(33, 33, 33);
   text-decoration: none;
